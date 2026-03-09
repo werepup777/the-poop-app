@@ -51,7 +51,7 @@ export default function Home() {
         
         {/* BUTTON 1: THE MAP */}
         <button 
-          onClick={() => { /* QUIZ ANSWER GOES HERE */ }}
+          onClick={() => setCurrentView('map')}
           className={`font-black text-xl tracking-widest transition-all ${currentView === 'map' ? `${neonGreen} drop-shadow-[0_0_8px_rgba(57,255,20,0.8)] scale-110` : 'text-zinc-600 hover:text-zinc-400'}`}
         >
           MAP
@@ -59,7 +59,7 @@ export default function Home() {
 
         {/* BUTTON 2: THE FEED */}
         <button 
-          onClick={() => { /* QUIZ ANSWER GOES HERE */ }}
+          onClick={() => setCurrentView('feed')}
           className={`font-black text-xl tracking-widest transition-all ${currentView === 'feed' ? `${neonPink} drop-shadow-[0_0_8px_rgba(255,0,255,0.8)] scale-110` : 'text-zinc-600 hover:text-zinc-400'}`}
         >
           FEED
