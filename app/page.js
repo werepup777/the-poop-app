@@ -4,8 +4,8 @@ import { useState } from 'react';
 export default function Home() {
   // 🧠 OUR APP'S BRAIN (STATE)
   const [currentView, setCurrentView] = useState('map'); // Active channels: 'map', 'feed', or 'profile'
-  const [isWriteReviewOpen, setIsWriteReviewOpen] = useState(false);
-  const [numberOfPlungers, setNumberOfPlungers] = useState(0);
+  //const [isWriteReviewOpen, setIsWriteReviewOpen] = useState(false);
+  //const [numberOfPlungers, setNumberOfPlungers] = useState(0);
 
   // 🎨 HUNTER'S UNHINGED NEON THEME
   const bgTheme = "bg-zinc-950 text-white"; // Pitch black arcade cabinet
